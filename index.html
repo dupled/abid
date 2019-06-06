@@ -1,0 +1,226 @@
+<html>
+
+<head>
+    <title>Abid</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/mdb.min.css" type="text/css" />
+    <style>
+        .scene {
+            position: absolute;
+            left: 0;
+            overflow: hidden;
+            right: 0;
+            top: 0;
+            height: 100%;
+            bottom: 0;
+            margin: auto;
+            width: 100%;
+            max-width: 1248px;
+        }
+
+        .scene>div {
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .scene>.ground {
+            background-size: 100% !important;
+            border-radius: 0;
+            background: url(img/back.png) no-repeat;
+            z-index: -999;
+            width: 97%;
+            height: 100%;
+            margin-top: -30%;
+            margin-left: auto;
+        }
+
+        .scene>div.icon1 {
+            width: 120px;
+            left: 50%;
+            margin-left: -46%;
+            height: 120px;
+            background-size: 100% !important;
+            background: url(img/icon/laptop.png) no-repeat center;
+        }
+
+        .scene div.icon2 {
+            width: 70px;
+            height: 70px;
+            background-size: 100% !important;
+            background: url(img/icon/gamepad.png) no-repeat center;
+            z-index: 100;
+            left: 50%;
+            margin-left: -30%;
+            margin-top: 110px;
+        }
+
+        .scene div.icon3 {
+            width: 100px;
+            height: 100px;
+            background-size: 100% !important;
+            background: url(img/icon/edit-tools.png) no-repeat center;
+            z-index: 100;
+            left: 50%;
+            margin-left: 20%;
+            margin-top: 40px;
+        }
+
+        .scene div.icon4 {
+            width: 80px;
+            height: 80px;
+            background-size: 100% !important;
+            background: url(img/icon/browser.png) no-repeat center;
+            z-index: 100;
+            left: 50%;
+            margin-left: 30.7%;
+            margin-top: 0;
+        }
+
+        .scene div.icon5 {
+            width: 90px;
+            height: 90px;
+            background-size: 100% !important;
+            background: url(img/icon/computer-1.png) no-repeat center;
+            z-index: 100;
+            left: 50%;
+            margin-left: -22%;
+            margin-top: -55px;
+        }
+
+        .scene div.icon6 {
+            width: 90px;
+            height: 90px;
+            background-size: 100% !important;
+            background: url(img/icon/wrench.png) no-repeat center;
+            z-index: 100;
+            left: 50%;
+            margin-left: 40%;
+            margin-top: 131px;
+        }
+
+        .buildings {
+            width: 363px;
+            height: 211px;
+            left: 50%;
+            z-index: 999;
+            margin-left: -199px;
+            background-size: 100% !important;
+            background: url(https://cdn.ces.tech/ces/media/logos-and-icons/ces-logo.png) no-repeat center;
+            border-radius: 0 !important;
+        }
+
+        .parallax {
+            transition: transform 0.1s;
+        }
+
+        .navbar {
+            box-shadow: none;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .box-phone {
+            background: #62a5ff;
+            color: white;
+            padding: 7px 20px;
+            font-size: 26px;
+            font-weight: 600;
+            margin-top: -12px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .nav-item {
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 0px 10px;
+        }
+
+        .navbar-nav>li>a:after {
+            position: absolute;
+            content: "";
+            height: 3px;
+            width: 0;
+            left: 50%;
+            right: 0;
+            bottom: 0px;
+            background-color: transparent;
+            color: #62a5ff;
+            border-bottom: 3px solid #62a5ff;
+            transition: all .10s ease-in-out;
+            transform: translate(-50%, 0) translateZ(0);
+            -webkit-transform: translate(-50%, 0) translateZ(0);
+        }
+
+        .navbar-nav>li:hover>a:after {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg nav-bar navbar-light scrolling-navbar">
+        <a class="navbar-brand" style="width:200px" href="#"><img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Logo_of_Consumer_Electronics_Show.svg/1200px-Logo_of_Consumer_Electronics_Show.svg.png"
+                height="30" alt="mdb logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="navbar-nav ml-auto nav-flex-icons">
+                <div class="box-phone">079 694 3234</div>
+            </div>
+        </div>
+    </nav>
+    <div class="scene" style="padding-top:23%;">
+        <div data-offset="90" class="icon1 parallax z-depth-1"></div>
+        <div data-offset="50" class="icon2 parallax z-depth-1"></div>
+        <div data-offset="50" class="icon3 parallax z-depth-1"></div>
+        <div data-offset="85" class="icon4 parallax z-depth-1"></div>
+        <div data-offset="45" class="icon5 parallax z-depth-1"></div>
+        <div data-offset="120" class="icon6 parallax z-depth-1"></div>
+        <div data-offset="35" class="buildings parallax"></div>
+        <div data-offset="20" class="ground parallax"></div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> -->
+    <script>
+        $(window).on('mousemove', function (e) {
+            var w = $(window).width();
+            var h = $(window).height();
+            var offsetX = 0.5 - e.pageX / w;
+            var offsetY = 0.5 - e.pageY / h;
+
+            $(".parallax").each(function (i, el) {
+                var offset = parseInt($(el).data('offset'));
+                var translate = "translate3d(" + Math.round(offsetX * offset) + "px," + Math.round(offsetY * offset) + "px, 0px)";
+
+                $(el).css({
+                    '-webkit-transform': translate,
+                    'transform': translate,
+                    'moz-transform': translate
+                });
+            });
+        });
+        $('body').on('mouseleave', function (e) {
+            $(".parallax").removeAttr("style");
+        });
+    </script>
+</body>
+
+</html>
