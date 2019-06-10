@@ -98,14 +98,13 @@
 }
 
 .buildings {
-  width: 363px;
-  height: 211px;
+  width: 1006px;
+  height: 244px;
   left: 50%;
   z-index: 999;
-  margin-left: -199px;
-  background-size: 100% !important;
-  background: url(https://cdn.ces.tech/ces/media/logos-and-icons/ces-logo.png)
-    no-repeat center;
+  margin-left: -510px;
+  background-size: 83% !important;
+  background: url(../img/logo.png) no-repeat center;
   border-radius: 0 !important;
 }
 
@@ -136,7 +135,7 @@
 
 .navbar-nav > li > a:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 3px;
   width: 0;
   left: 50%;
@@ -160,4 +159,12 @@
   .container {
     max-width: 1170px;
   }
+}
+.team-bg {
+  background: url(../img/team.jpg);
+  background-size: cover;
+  min-height: 500px;
+  background-position: center;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
+  padding: 10rem;
 }
