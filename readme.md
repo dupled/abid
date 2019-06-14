@@ -10,6 +10,6 @@
 ## Install & run Laravel
 
 - Install:
-```composer install```
+```composer install```, ```php artisan key:generate```
 - Run:
 ```php artisan serve```
