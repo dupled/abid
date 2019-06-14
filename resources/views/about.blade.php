@@ -54,7 +54,7 @@
             </div>
         </div>
     </nav>
-    {{-- <div class="container-fluid team-bg text-white align-middle">
+    <div class="container-fluid team-bg text-white align-middle">
         <div class="container">
             <blockquote class="blockquote font-weight- font-weight-normal">
                 <p class="mb-0">We are gathering members who live and work in a city with the most beautiful and livable
@@ -69,7 +69,7 @@
                 </footer>
             </blockquote>
         </div>
-    </div> --}}
+    </div>
     <div class="container">
         <section class="my-5">
             <div class="row">
