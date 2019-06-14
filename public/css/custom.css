@@ -49,8 +49,8 @@
   background: url(../img/icon/gamepad.png) no-repeat center;
   z-index: 100;
   left: 50%;
-  margin-left: -30%;
-  margin-top: 110px;
+  margin-left: -31%;
+  margin-top: 167px;
 }
 
 .scene div.icon3 {
@@ -60,8 +60,8 @@
   background: url(../img/icon/edit-tools.png) no-repeat center;
   z-index: 100;
   left: 50%;
-  margin-left: 20%;
-  margin-top: 40px;
+  margin-left: 15%;
+  margin-top: -83px;
 }
 
 .scene div.icon4 {

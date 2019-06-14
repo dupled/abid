@@ -176,7 +176,7 @@
                             </div>
                             <div class="card card-personal mb-4">
                                 <div class="view overlay">
-                                    <img class="card-img-top" src="https://i.imgur.com/bQs0wg6.png"
+                                    <img class="card-img-top" src="/img/members/bQs0wg6.png"
                                         alt="Card image cap">
                                     <a href="#!">
                                         <div class="mask rgba-white-slight"></div>
@@ -241,7 +241,7 @@
                             </div>
                             <div class="card card-personal mb-4">
                                 <div class="view overlay">
-                                    <img class="card-img-top" src="https://i.imgur.com/WnsYwQ9.png"
+                                    <img class="card-img-top" src="/img/members/WnsYwQ9.png"
                                         alt="Card image cap">
                                     <a href="#!">
                                         <div class="mask rgba-white-slight"></div>
@@ -432,7 +432,7 @@
     </div>
     <div class="container-fluid home-spy pt-1 pl-0 pr-0" id="contact">
             <div class="view jarallax" style="height: 100vh;">
-                <img class="jarallax-img" src="https://i.imgur.com/Ocx9R5I.jpg" alt="">
+                <img class="jarallax-img" src="/img/Ocx9R5I.jpg" alt="">
                 <div class="mask">
                     <div class="container flex-center text-center text-white">
                         <div class="row mt-5">
@@ -456,7 +456,7 @@
                 </div>
             </div>
     </div>
-    <div class="container home-spy pt-1" id="contact-us">
+    <div class="container home-spy pt-3" id="contact-us">
         <div class="row mt-3">
             <div class="col-md-7">
                 <div class="logo-wrapper sn-ad-avatar-wrapper justify-content-center d-flex mb-4 mt-5">
@@ -468,7 +468,7 @@
                     beaches in the Central Coast in particular and Vietnam in general. We gather from enthusiastic young
                     members We have 1-2 years of experience to veteran members who have 6 years of experience.
                 </p>
-                <img src="https://i.imgur.com/hZHED9p.png" style="position: absolute;bottom:0;" width="100%">
+                <img src="/img/hZHED9p.png" style="position: absolute;bottom:0;" width="100%">
             </div>
             <div class="col-md-5">
                 <div class="card">
