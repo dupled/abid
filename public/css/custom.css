@@ -120,11 +120,11 @@
 .box-phone {
   background: #62a5ff;
   color: white;
-  padding: 0px 17px;
+  padding: 0 16px;
   font-size: 36px;
   font-weight: 600;
-  margin-top: -12px;
-  border-radius: 0 0 10px 10px;
+  margin-top: 0;
+  border-radius: 6px;
 }
 
 .nav-item {
